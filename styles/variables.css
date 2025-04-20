@@ -1,4 +1,9 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --font-family: 'IBM Plex Mono';
+  --font-size: 18px;
+  --font-weight-s: 400;
+  --font-weight-m: 700;
+  --padding-inline-s: 10px;
+  --padding-block-s: 10px;
+  --margin-inline-s: 10px;
+}
