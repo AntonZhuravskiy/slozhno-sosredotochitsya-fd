@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 1fr;
   justify-self: center;
-  font-family: var(--font-family, sans-serif);
+  font-family: var(--font-family, monospace);
   font-weight: var(--font-weight-s, 400);
   font-style: normal;
   background-image: var(--bg-image, url(../images/cover-image-dark.png));
@@ -95,7 +95,7 @@
 .header__theme-menu-button {
   border: 0;
   color: var(--color-button, #ff0070);
-  font-family: var(--font-family, sans-serif);
+  font-family: var(--font-family, monospace);
   font-weight: var(--font-weight-s, 400);
   font-size: var(--font-size, 18px);
   font-style: normal;
@@ -127,7 +127,7 @@
   padding-block-end: 0;
   color: var(--color-title-L, #db00ff);
   font-weight: var(--font-weight-m, 700);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--logo-size-mobile);
   line-height: 80.5%;
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
 }
@@ -183,7 +183,7 @@
   line-height: 130%;
 }
 
-.article__title .title-decor {
+.article__title.title-decor {
   background-color: var(--accent-color, #ff0070);
 }
 
@@ -241,7 +241,7 @@
   align-self: center;
   color: var(--color-title-L, #db00ff);
   font-weight: var(--font-weight-m, 700);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--logo-size-mobile);
   line-height: 80.5%;
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
@@ -278,7 +278,7 @@
     grid-column: span 2;
     justify-self: flex-start;
     align-self: center;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: var(--logo-size-desktop);
     margin-inline: 0;
   }
 
@@ -419,7 +419,7 @@
   }
 
   .footer__logo {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: var(--logo-size-desktop);
   }
 }
 
@@ -446,7 +446,7 @@
   }
 
   .header__logo {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: var(--logo-size-desktop);
   }
 
   .header__content {
@@ -486,6 +486,6 @@
   }
 
   .footer__logo {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: var(--logo-size-desktop);
   }
 }

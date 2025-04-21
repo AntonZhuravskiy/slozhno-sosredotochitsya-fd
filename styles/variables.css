@@ -1,9 +1,11 @@
 :root {
-  --font-family: 'IBM Plex Mono';
+  --font-family: "IBM Plex Mono";
   --font-size: 18px;
   --font-weight-s: 400;
   --font-weight-m: 700;
   --padding-inline-s: 10px;
   --padding-block-s: 10px;
   --margin-inline-s: 10px;
+  --logo-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --logo-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
